@@ -6,7 +6,7 @@ const expressSession = require('express-session')
 const flash = require('connect-flash')
 
 //Connect Mongodb
-mongoose.connect('mongodb+srv://admin:1234@cluster0.zpomhhp.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://test:1234@cluster0.c6fw92s.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true})
 
 global.loggedIn = null // จับค่าว่าเข้าหรือยัง
 
